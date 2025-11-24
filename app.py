@@ -23,12 +23,12 @@ opcion = st.slider(
 # Mostrar imagen según slider
 st.image(imagenes[opcion], use_container_width=True)
 if opcion == 1:
- st.info(" **1950 – Test de Turing** | Alan Turing propone un criterio para evaluar la inteligencia de una máquina.")
+ st.info(" **1943 – La Neurona Formal** | Warren McCulloch y Walter Pitts publican el modelo de la Neurona MCP.")
 if opcion == 2:
- st.info(" **1956 – Nace el campo de la IA en Dartmouth** | John McCarthy acuña el término *Inteligencia Artificial*.")
+ st.info(" **1957 – La Invención del Perceptrón** | Frank Rosenblatt crea el Perceptrón.")
 if opcion == 3:
- st.info(" **1997 – Deep Blue vence a Garry Kasparov** | Primer triunfo de una máquina sobre un campeón mundial de ajedrez.")
+ st.info(" **1986 – La Superación del Estancamiento con Retropropagación** | Geoffrey Hinton, David Rumelhart y Ronald Williams popularizan la Retropropagación.")
 if opcion == 4:
- st.info(" **2012 – Revolución del Deep Learning (AlexNet)** | Una red neuronal profunda supera ampliamente otros métodos en reconocimiento de imágenes.")
+ st.info(" **2009 – El Auge de las Redes Convolucionales (CNN) y GPUs** | Yann LeCun desarrolla LeNet-5 (1998) y el posterior uso de GPUs (a partir de 2009) para acelerar el entrenamiento.")
 if opcion == 5:
- st.info(" **2022 – Avances en modelos generativos** | Llegan tecnologías como ChatGPT, Gemini, Agentes y más.")
+ st.info(" **2012 – El Momento de AlexNet en ImageNet** | Alex Krizhevsky, Ilya Sutskever y Geoffrey Hinton (el equipo de AlexNet) ganan la competencia de reconocimiento visual ImageNet (ILSVRC) por un margen abrumador.")
