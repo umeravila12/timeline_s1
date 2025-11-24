@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
 st.title("Modelo de Predicción para el abastecimiento periódico (modelo LSTM)")
-st.write("Autor: Umer Avila - Grupo 03 | ISIL")
+st.write("Autor: Umer Avila - Avance01-Grupo03 | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 # URLs de imágenes en GitHub
 base_url = "https://raw.githubusercontent.com/umeravila12/timeline_s1/main/timeline_images/"
